@@ -15,7 +15,7 @@ const question = {
     },
     check: (userCho) => {
         if(userCho === question.correct) {
-           document.querySelector('.feedback').textContent = 'corrent'
+           document.querySelector('.feedback').textContent = `${question.anTwo} is correct`
         } else {
             document.querySelector('.feedback').textContent = 'incorrent'
         }
